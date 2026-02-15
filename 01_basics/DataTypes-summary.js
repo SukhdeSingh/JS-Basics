@@ -25,3 +25,11 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
+
+//****************************** Memory *************** */
+
+//Stack (Primitive), Heap (Non-Primitive)
+
+//In stack we get copy of the value
+// In heap we get the reffernce of the value
+
