@@ -8,6 +8,6 @@
 }) (); // here ()function is used to execute the function
 
 ( (name) => {
-
+//unNamed iife
     console.log(`DB CONNECTED TWO ${name}`);
 }) ('Aman')
