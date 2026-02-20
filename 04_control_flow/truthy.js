@@ -26,3 +26,19 @@ console.log(val1);
 // condition ? true : false
 const iceTeaPrice = 100
 iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80");
+
+// break and continue
+
+let myArray = ["flash", "batman", "superman"];
+//console.log(myArray.length);
+for (let i = 1; i <= 20; i++) {
+    if( i%5 == 0)
+        break;
+    console.log(`Value of i is ${i}`);
+}
+console.log("********** ");
+for (let i= 0; i <= 20; i++) {
+    if (i%5 == 0)
+        continue;
+    console.log(`Value of i is ${i}`);
+}
