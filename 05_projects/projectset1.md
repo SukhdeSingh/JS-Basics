@@ -175,6 +175,7 @@ startOver.removeChild(p);
 ```
 ## Project 5 background color change
 ```javascript
+
 //generate a random color
 
 const randomColor = function () {
@@ -204,5 +205,31 @@ intervalId = null;
 document.querySelector('#start').addEventListener('click', startChangingColor);
 
 document.querySelector('#stop').addEventListener('click', stopChangingColor);
+
+```
+
+## Project 5 key code
+```javascript
+const insert = document.getElementById('insert');
+
+window.addEventListener('keydown', (e) => {
+  insert.innerHTML = `
+  <div class = 'color'>
+  <table>
+<tr>
+<th>key</th>
+<th>keycode</th>
+<th>code</th>
+</tr>
+<tr>
+<td>${e.key === '' ? 'Space' : e.key}</td>
+<td>${e.keyCode}</td>
+<td>${e.code}</td>
+</tr>
+
+</table>
+  </div>
+  `;
+});
 
 ```
